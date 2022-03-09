@@ -1,0 +1,10 @@
+E={0,2,4,6,8}
+N={1,2,3,4,5}
+uni=E.union(N)
+inte=E.intersection(N)
+diff=E-N
+sdiff=E.symmetric_difference(N)
+print("Union of E and N is",uni)
+print("Intersection of E and N is",inte)
+print("Difference of E and N is",diff)
+print("Symmtric difference of E and N is",sdiff)
